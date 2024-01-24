@@ -36,11 +36,11 @@ setup(
         'Programming Language :: Python :: 3.5'
     ], 
     install_requires = requirements,
-    ext_modules=[
-        Extension(
-            'gtfspy.routing.label',
-            sources=["gtfspy/routing/label.pyx"],
-        ),
-    ],
+    ext_modules=[],
+    #    Extension(
+    #        'gtfspy.routing.label',
+    #        sources=["gtfspy/routing/label.pyx"],
+    #    ),
+    #],
     keywords = ['transit', 'routing' 'gtfs', 'public transport', 'analysis', 'visualization'], # arbitrary keywords
 )

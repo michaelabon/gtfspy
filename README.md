@@ -18,7 +18,7 @@
 
 
 ## Prerequisites
-* [Python 3.8](https://www.python.org/)
+* [Python 3.11](https://www.python.org/)
 * Supported platforms: Linux, OSX & Windows
 * Optional: [git](https://git-scm.com/) is used for development.
 
